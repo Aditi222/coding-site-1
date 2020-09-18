@@ -1,0 +1,43 @@
+const express =require('express');
+const router =express.Router();
+router.get('/learnjava',(req,res)=>{
+    res.render('javal');
+})
+module.exports=router;
+router.get('/learnhtml',(req,res)=>{
+    res.render('learnh')
+})
+router.get('/learncplus',(req,res)=>{
+    res.render('learnc');
+})
+router.get('/learnpython',(req,res)=>{
+    res.render('learnp')
+})
+router.get('/chas',(req,res)=>{
+    res.render('chastag');
+})
+router.get('/see',(req,res)=>{
+    res.render('csee');
+})
+
+router.get('/ml',(req,res)=>{
+    res.render('ml');
+})
+router.get('/sql',(req,res)=>{
+    res.render('sql');
+})
+router.get('/dswpy',(req,res)=>{
+    res.render('dswpy');
+})
+router.get('/csss',(req,res)=>{
+    res.render('csss');
+})   
+router.get('/class1',(req,res)=>{
+    res.render('classfir')
+})
+router.get('/class2',(req,res)=>{
+    res.render('classsec')
+})
+router.get('/class3',(req,res)=>{
+    res.render('classthird')
+})

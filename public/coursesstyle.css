@@ -1,0 +1,57 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#create{
+ 
+    background-image: linear-gradient(to right,#1e130c,#9a8478);
+    color: white;
+    padding-top: 5%;
+  
+  }
+  .lourr{
+    font-size: 20px;
+    font-weight: normal;
+  
+  }
+  .play{
+    width: 45px;
+    margin-top:  500px;
+    padding-top: 20px;
+    background: lightslategrey;
+    color: white;
+    padding:0.8rem 1.5rem;
+    border:white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 30px;
+   
+  }
+  .change::after{
+    content: '';
+    background:#6190E8;
+    width: 100px;
+   height:5px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    
+    
+  
+  }
+  .play{
+    width: 45px;
+    margin-top:  500px;
+    padding-top: 20px;
+    background: lightslategrey;
+    color: white;
+    padding:0.8rem 1.5rem;
+    border:white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 30px;
+   
+  }

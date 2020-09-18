@@ -1,0 +1,14 @@
+.lourrr{
+    color: blue;
+    font-size: 35px;
+  }
+  #create{
+ 
+    background-image: linear-gradient(to right,#6190E8,#A7BFE8);
+    color: white;
+    padding-top: 5%;
+  
+  }
+  .create1{
+      background-color:grey lighten 4;
+  }
